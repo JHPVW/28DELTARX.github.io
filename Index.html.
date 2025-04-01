@@ -3,12 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Website</title>
+    <title>28ΔRx</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            font-size: 2em;
+        }
+        .social-buttons {
+            margin: 20px 0;
+        }
+        .social-buttons a {
+            margin: 0 10px;
+            display: inline-block;
+            width: 50px;
+            height: 50px;
+            background-size: cover;
+        }
+        .tiktok { background-image: url('icons/tiktok.png'); }
+        .instagram { background-image: url('icons/instagram.png'); }
+        .youtube { background-image: url('icons/youtube.png'); }
+        .x { background-image: url('icons/x.png'); }
+        .patreon { background-image: url('icons/patreon.png'); }
+        .spotify { background-image: url('icons/spotify.png'); }
+        .strava { background-image: url('icons/strava.png'); }
+        .threads { background-image: url('icons/threads.png'); }
+        .facebook { background-image: url('icons/facebook.png'); }
+    </style>
 </head>
 <body>
-    <h1>Welcome to My Website</h1>
+    <header>
+        28ΔRx
+    </header>
+    <div class="social-buttons">
+        <a href="https://www.tiktok.com" class="tiktok" target="_blank"></a>
+        <a href="https://www.instagram.com" class="instagram" target="_blank"></a>
+        <a href="https://www.youtube.com" class="youtube" target="_blank"></a>
+        <a href="https://www.twitter.com" class="x" target="_blank"></a>
+        <a href="https://www.patreon.com" class="patreon" target="_blank"></a>
+        <a href="https://www.spotify.com" class="spotify" target="_blank"></a>
+        <a href="https://www.strava.com" class="strava" target="_blank"></a>
+        <a href="https://www.threads.net" class="threads" target="_blank"></a>
+        <a href="https://www.facebook.com" class="facebook" target="_blank"></a>
+    </div>
 </body>
 </html>
-<link rel="stylesheet" href="style.css">
-<script src="script.js"></script>
-<button onclick="document.body.style.backgroundColor='lightblue'">Change Color</button>
